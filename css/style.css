@@ -41,6 +41,12 @@ h3 {
   margin-bottom: 45px;
 }
 
+h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -93,6 +99,8 @@ p {
 }
 
 .inquiry {
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 100px;
   margin-left: 100px;
 }
@@ -155,8 +163,19 @@ p {
   .hero {
     padding: 80px 20px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .inquiry {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .btn-branding-talk {
+    margin-top: 5px;
   }
 }
