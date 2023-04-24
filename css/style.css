@@ -53,6 +53,24 @@ p {
   line-height: 30px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding {
   color: #fff;
   background-color: var(--branding-color);
@@ -113,27 +131,6 @@ p {
   line-height: 27px;
 }
 
-.btn-branding-talk {
-  color: #fff;
-  background-color: var(--branding-color);
-  padding: 18px 30px;
-  margin: 30px 180px;
-  border-radius: 4px;
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid var(--branding-color);
-}
-
-.btn-branding-talk:hover {
-  color: var(--branding-color);
-  background-color: #fff;
-  transition: 0.5s;
-  cursor: pointer;
-  border: 1px solid var(--branding-color);
-}
-
 .mail {
   display: block;
   text-align: center;
@@ -177,5 +174,10 @@ p {
 
   .btn-branding-talk {
     margin-top: 5px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding-top: 90px;
   }
 }
