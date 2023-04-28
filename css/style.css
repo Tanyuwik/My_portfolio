@@ -128,19 +128,15 @@ p {
   padding: 120px 60px;
 }
 
-.inquiry {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 90px;
-  margin-left: 100px;
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-.work-inquiry {
-  font-family: var(--default-font-family);
-  margin-top: 20px;
-  font-weight: 400;
+.contact-box p {
+  margin: 0;
   font-size: 18px;
-  line-height: 27px;
 }
 
 .mail {
@@ -155,9 +151,11 @@ p {
 }
 
 .icon a {
-  padding: 10px;
+  padding: 10px 19px;
+  border-radius: 50%;
   font-size: 24px;
   margin: 0 20px;
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
